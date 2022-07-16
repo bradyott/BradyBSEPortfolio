@@ -1,5 +1,5 @@
 ﻿# Gesture Controlled Robot Car
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+This project allows users to control all movements of a robot simply by turning their hand. It uses an accelerometer to record hand motions and then sends this data via Bluetooth modules to an Arduino Uno. The Uno then receives this information and tells the DC motors what to do. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
