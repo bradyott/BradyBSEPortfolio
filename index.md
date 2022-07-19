@@ -6,9 +6,10 @@ This project allows users to control all movements of a robot simply by turning 
 | Brady O. | Council Rock North | Mechanical Engineering | Incoming Junior
 
 ![Headstone Image](https://github.com/BlueStampEng/BSE_Template_Portfolio/blob/4655d8c4b2f1d0fa5912511d0b39542520b9f88e/branding/BlueStamp-Engineering-Logo-White.png)
-  
+# Modifications
+The first major modification that I made was to make the robot more portable by wiring a 9V battery to the Arduino Micro. This way, I could use the robot and the Arduino Micro anywhere without having to get power from a computer. The second modification that I made was a game that I created using an Ultrasonic sensor and an LCD screen. The LCD screen would give an objective to the user in centimeters, and the user had to try to manuever the robot that many centimeters away from the wall. The Ultrasonic sensor would detect whether the robot was somewhat close to the objecive and would then award the user a point based on their accuracy. 
 # Final Milestone
-My final milestone was connecting the Arduino Micro which worked with the accelerometer to the Arduino Uno, which worked with the DC motors. I did this by wiring HC-05 Bluetooth modules to both the Arduino Micro and the Arduino Uno. The wiring of these was particularly trickey because certain pins on the Bluetooth module required resisttors to change their current from 5V to 3.3V. Another tricky aspect was the debugging of the Arduino Uno code, since I learned that some of previous aspects of the code slowed down the Bluetooth too much and had to be deleted.
+My final milestone was connecting the Arduino Micro which worked with the accelerometer to the Arduino Uno, which worked with the DC motors. I did this by wiring HC-05 Bluetooth modules to both the Arduino Micro and the Arduino Uno. The wiring of these was particularly tricky because certain pins on the Bluetooth module required resistors to change their current from 5V to 3.3V. Another tricky aspect was the debugging of the Arduino Uno code, since I learned that some of previous aspects of the code slowed down the Bluetooth too much and had to be deleted.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gayrmzNoFYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
