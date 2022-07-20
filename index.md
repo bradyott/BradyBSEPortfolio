@@ -480,18 +480,18 @@ My first milestone was assembling the frame of the robot by screwing in the DC m
 
 | **Part** | **Quantity** | **Description** | **Reference Designator** | **Cost** |
 |:--:|:--:|:--:|:--:|:--:|
-| Robot Kit | 1 | Chassis, Battery Pack, DC Motors, Wheels, etc. | M1, M2 | 19.99 |
-| Bluetooth Module | 2 | Serial Communication | HC-05 | 19.98 |
-| Accelerometer	 | 1 | Measure Linear Acceleration Along Axis | ADXL345 | 13.59 |
-| Arduino Uno	 | 1 | Microcontroller Board | R3 | 23.00 |
-| Arduino Micro	 | 1 | Microcontroller Board | R3 | 20.70 |
-| Arduino Uno	 | 1 | Microcontroller Board | R3 | 23.00 |
-| Jumper Wires| 1 | Connection Wires| N/A | 6.98 |
-| Dual H Bridge	| 1 | Control Direction of DC Motors| L298N | 6.99 |
-| Breadboard	| 1 | Build Circuits Without Soldering | N/A| 11.98 |
-| Resistors	| 1 | Control Flow of Electrical Current | N/A| 10.99 |
-| Liquid Crystal Display	| 1 | Display Characters | IIC/I2C/TWI | 7.59 |
-| Ultrasonic Sensor	| 1 | Detect Distance | HC-SR04 | 1.80 |
-| Soldering Iron	| 1 | Connects Wires | N/A | 15.99 |
-| Screwdriver Kit	| 1 | Tightens Screws | N/A | 6.99 |
+| Robot Kit | 1 | Chassis, Battery Pack, DC Motors, Wheels, etc. | M1, M2 | $19.99 |
+| Bluetooth Module | 2 | Serial Communication | HC-05 | $19.98 |
+| Accelerometer	 | 1 | Measure Linear Acceleration Along Axis | ADXL345 | $13.59 |
+| Arduino Uno	 | 1 | Microcontroller Board | R3 | $23.00 |
+| Arduino Micro	 | 1 | Microcontroller Board | R3 | $20.70 |
+| Arduino Uno	 | 1 | Microcontroller Board | R3 | $23.00 |
+| Jumper Wires| 1 | Connection Wires| N/A | $6.98 |
+| Dual H Bridge	| 1 | Control Direction of DC Motors| L298N | $6.99 |
+| Breadboard	| 1 | Build Circuits Without Soldering | N/A| $11.98 |
+| Resistors	| 1 | Control Flow of Electrical Current | N/A| $10.99 |
+| Liquid Crystal Display	| 1 | Display Characters | IIC/I2C/TWI | $7.59 |
+| Ultrasonic Sensor	| 1 | Detect Distance | HC-SR04 | $1.80 |
+| Soldering Iron	| 1 | Connects Wires | N/A | $15.99 |
+| Screwdriver Kit	| 1 | Tightens Screws | N/A | $6.99 |
 
