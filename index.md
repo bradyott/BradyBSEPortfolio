@@ -6,6 +6,7 @@ This project allows users to control all movements of a robot simply by turning 
 | Brady O. | Council Rock North | Mechanical Engineering | Incoming Junior
 
 ![Headstone Image](https://github.com/BlueStampEng/BSE_Template_Portfolio/blob/4655d8c4b2f1d0fa5912511d0b39542520b9f88e/branding/BlueStamp-Engineering-Logo-White.png)
+<embed type="application/x-google-chrome-pdf" src="chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/fdd91012-5800-43ef-9501-57575b22a860" original-url="file:///Users/owner/Downloads/IMG_1278.pdf" background-color="4283586137" javascript="allow" full-frame>
 # Modifications
 The first major modification that I made was to make the robot more portable by wiring a 9V battery to the Arduino Micro. This way, I could use the robot and the Arduino Micro anywhere without having to get power from a computer. The second modification that I made was a game using an Ultrasonic sensor and an LCD screen. The LCD screen would give an objective to the user in centimeters, and the user had to try to manuever the robot that many centimeters away from the wall. The Ultrasonic sensor would detect whether the robot was somewhat close to the objecive and would then award the user a point based on their accuracy. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bhcBi9ve2_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
