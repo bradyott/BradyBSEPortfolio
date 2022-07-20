@@ -477,6 +477,7 @@ My first milestone was assembling the frame of the robot by screwing in the DC m
 </pre>
 
 # Bill of Materials
+
 | **Part** | **Quantity** | **Description** | **Reference Designator** | **Cost** |
 |:--:|:--:|:--:|:--:|:--:|
 | Robot Kit | 1 | Chassis, Battery Pack, DC Motors, Wheels, etc. | M1, M2 | 19.99 |
