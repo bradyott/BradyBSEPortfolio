@@ -1,5 +1,5 @@
 ﻿# Gesture Controlled Robot Car
-This project allows users to control all movements of a robot simply by turning their hand. It uses an accelerometer to record hand motions and then sends this data via Bluetooth modules to an Arduino Uno. The Uno then receives this information and tells the DC motors what to do. 
+This project allows users to control all movements of a robot simply by turning their hand using an accelerometer and two Bluetooth HCO5 modules to connect two Arduino computers. I also added an Ultrasonic sensor to the robot and an LCD screen to the joystick to create a game based on how far away the robot is from a given object. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
