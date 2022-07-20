@@ -26,7 +26,7 @@ My first milestone was assembling the frame of the robot by screwing in the DC m
 <iframe width="560" height="315" src="https://www.youtube.com/embed/plT0T65Whm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Schematics
-(https://cdn.discordapp.com/attachments/991733151166627870/998973852631711905/gesture_bb.png)
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://cdn.discordapp.com/attachments/991733151166627870/998973852631711905/gesture_bb.png" width="344" height="208">
 # Final Code
 <pre>
 <font color="#95a5a6">&#47;*This is the code for the Arduino Micro, which manages the</font>
