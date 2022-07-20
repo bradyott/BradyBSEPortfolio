@@ -29,7 +29,12 @@ My first milestone was assembling the frame of the robot by screwing in the DC m
 (https://github.com/BlueStampEng/BSE_Template_Portfolio/blob/4655d8c4b2f1d0fa5912511d0b39542520b9f88e/branding/BlueStamp-Engineering-Logo-White.png)
 # Final Code
 <pre>
-
+<font color="#95a5a6">&#47;*This is the code for the Arduino Micro, which manages the</font>
+<font color="#95a5a6"> * accelerometer and the LCD screen. In this code, the Micro sends </font>
+<font color="#95a5a6"> * information about the position of the accelerometer to the Arduino </font>
+<font color="#95a5a6"> * Uno via Bluetooth. It also recieves information about the Ultrasonic</font>
+<font color="#95a5a6"> * Sensor from the Arduino Uno and prints it using the LCD screen.</font>
+<font color="#95a5a6"> *&#47;</font>
 
 <font color="#5e6d03">#include</font> <font color="#434f54">&lt;</font><font color="#d35400">Wire</font><font color="#434f54">.</font><font color="#000000">h</font><font color="#434f54">&gt;</font>
 <font color="#5e6d03">#include</font> <font color="#434f54">&lt;</font><font color="#000000">MPU6050</font><font color="#434f54">.</font><font color="#000000">h</font><font color="#434f54">&gt;</font>
@@ -229,8 +234,14 @@ My first milestone was assembling the frame of the robot by screwing in the DC m
 
 </pre>
 
-
 <pre>
+<font color="#95a5a6">&#47;*This is the code for the Arduino Uno, which recieves data from the </font>
+<font color="#95a5a6"> * Arduino Micro and relays it via the H Bridge to the DC Motors. It also </font>
+<font color="#95a5a6"> * recieves data from the Ultrasonic Sensor and then forwards that data</font>
+<font color="#95a5a6"> * via Bluetooth the the Arduino Micro. This Uno is located on top of the robot.</font>
+<font color="#95a5a6"> * </font>
+<font color="#95a5a6"> *&#47;</font>
+
 <font color="#5e6d03">#include</font> <font color="#434f54">&lt;</font><b><font color="#d35400">SoftwareSerial</font></b><font color="#434f54">.</font><font color="#000000">h</font><font color="#434f54">&gt;</font>
 
 <font color="#5e6d03">#define</font> <font color="#000000">tx</font> <font color="#000000">2</font>
