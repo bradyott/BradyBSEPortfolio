@@ -5,7 +5,8 @@ This project allows users to control all movements of a robot simply by turning 
 |:--:|:--:|:--:|:--:|
 | Brady O. | Council Rock North | Mechanical Engineering | Incoming Junior
 
-![Headstone Image][(https://github.com/BlueStampEng/BSE_Template_Portfolio/blob/4655d8c4b2f1d0fa5912511d0b39542520b9f88e/branding/BlueStamp-Engineering-Logo-White.png)](https://github.com/bradyott/BradyBSEPortfolio/blob/main/IMG_1278.HEIC?raw=true)
+![Headstone Image]
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/bradyott/BradyBSEPortfolio/main/IMG_1278.jpg" width="344" height="258">
 
 
 <embed type="application/x-google-chrome-pdf" src="chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/fdd91012-5800-43ef-9501-57575b22a860" original-url="file:///Users/owner/Downloads/IMG_1278.pdf" background-color="4283586137" javascript="allow" full-frame>
