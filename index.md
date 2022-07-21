@@ -7,8 +7,6 @@ This project allows users to control all movements of a robot simply by turning 
 
 <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/bradyott/BradyBSEPortfolio/main/IMG_1278.jpg" width="500" height="500">
 
-
-<embed type="application/x-google-chrome-pdf" src="chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/fdd91012-5800-43ef-9501-57575b22a860" original-url="file:///Users/owner/Downloads/IMG_1278.pdf" background-color="4283586137" javascript="allow" full-frame>
 # Modifications
 The first major modification that I made was to make the robot more portable by wiring a 9V battery to the Arduino Micro. This way, I could use the robot and the Arduino Micro anywhere without having to get power from a computer. The second modification that I made was a game using an Ultrasonic sensor and an LCD screen. The LCD screen would give an objective to the user in centimeters, and the user had to try to manuever the robot that many centimeters away from the wall. The Ultrasonic sensor would detect whether the robot was somewhat close to the objecive and would then award the user a point based on their accuracy. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bhcBi9ve2_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
