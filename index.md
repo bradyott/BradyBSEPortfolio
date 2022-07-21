@@ -5,7 +5,7 @@ This project allows users to control all movements of a robot simply by turning 
 |:--:|:--:|:--:|:--:|
 | Brady O. | Council Rock North | Mechanical Engineering | Incoming Junior
 
-<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/bradyott/BradyBSEPortfolio/main/IMG_1278.jpg" width="800" height="600">
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/bradyott/BradyBSEPortfolio/main/IMG_1278.jpg" width="900" height="650">
 
 # Modifications
 The first major modification that I made was to make the robot more portable by wiring a 9V battery to the Arduino Micro. This way, I could use the robot and the Arduino Micro anywhere without having to get power from a computer. The second modification that I made was a game using an Ultrasonic sensor and an LCD screen. The LCD screen would give an objective to the user in centimeters, and the user had to try to manuever the robot that many centimeters away from the wall. The Ultrasonic sensor would detect whether the robot was somewhat close to the objecive and would then award the user a point based on their accuracy. 
@@ -27,7 +27,7 @@ My first milestone was assembling the frame of the robot by screwing in the DC m
 <iframe width="560" height="315" src="https://www.youtube.com/embed/plT0T65Whm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Schematics
-<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://cdn.discordapp.com/attachments/991733151166627870/998973852631711905/gesture_bb.png" width="800" height="600">
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://cdn.discordapp.com/attachments/991733151166627870/998973852631711905/gesture_bb.png" width="900" height="650">
 # Final Code
 <pre>
 <font color="#95a5a6">&#47;*This is the code for the Arduino Micro, which manages the</font>
