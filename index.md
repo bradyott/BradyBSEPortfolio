@@ -5,7 +5,7 @@ This project allows users to control all movements of a robot simply by turning 
 |:--:|:--:|:--:|:--:|
 | Brady O. | Council Rock North | Mechanical Engineering | Incoming Junior
 
-<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/bradyott/BradyBSEPortfolio/main/IMG_1278.jpg" width="1532" height="774">
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/bradyott/BradyBSEPortfolio/main/IMG_1278.jpg" width="5532" height="774">
 
 
 <embed type="application/x-google-chrome-pdf" src="chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/fdd91012-5800-43ef-9501-57575b22a860" original-url="file:///Users/owner/Downloads/IMG_1278.pdf" background-color="4283586137" javascript="allow" full-frame>
@@ -29,7 +29,7 @@ My first milestone was assembling the frame of the robot by screwing in the DC m
 <iframe width="560" height="315" src="https://www.youtube.com/embed/plT0T65Whm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Schematics
-<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://cdn.discordapp.com/attachments/991733151166627870/998973852631711905/gesture_bb.png" width="1532" height="624">
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://cdn.discordapp.com/attachments/991733151166627870/998973852631711905/gesture_bb.png" width="5532" height="624">
 # Final Code
 <pre>
 <font color="#95a5a6">&#47;*This is the code for the Arduino Micro, which manages the</font>
