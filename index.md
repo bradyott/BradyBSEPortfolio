@@ -19,6 +19,11 @@ I added a couple of modifications to my robot since I was done with the project 
 <iframe width="1000" height="500" src="https://www.youtube.com/embed/bhcBi9ve2_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
+# Demo Night
+<p align="center">
+<iframe width="1000" height="500" src="https://www.youtube.com/embed/fabll6Bzw_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 # Final Milestone
 My final milestone was the connection of both Arduinos via Bluetooth HC-05 modules. The first step was wiring the modules to their respective Arduinos. This was unlike the simple wiring of the accelerometer, since the modules required the help of resistors to split the current from 5V to 3.3V. Once that was complete, I had to set each HC-05 module into AT Command modeand then pair them by using the Serial Monitor to obtain their Bluetooth addresses. This was definitely the hardest part of the project, since I had absolutely no experience. Furthermore, the addition of the Bluetooth required me to modify the code for the Arduino Uno, since some of previous aspects of the code slowed down the Bluetooth too much and had to be deleted.
 
