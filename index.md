@@ -4,7 +4,7 @@
 
 # Gesture Controlled Robot Car
 
-Users can control all movements of this robot simply by turning their hand. The robot utilizes an accelerometer and two Bluetooth HCO5 modules to connect the Arduino Micro on the hand controller to the Arduino Uno on the robot itself. Furthermore, an Ultrasonic sensor and LCD screen connect to the hand controller to create a game based on how far away the robot is from a given object. 
+Users can control all movements of this robot simply by turning their hand. The robot utilizes an accelerometer and two Bluetooth HCO5 modules to connect the Arduino Micro on the hand controller to the Arduino Uno on the robot itself. Furthermore, an Ultrasonic sensor and LCD screen connect to the hand controller to create an interactive game based on how far away the robot is from a given object. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -28,7 +28,7 @@ My final milestone was connecting the Arduino Micro, which worked with the accel
 
 # Second Milestone
 
-My second milestone setting up the accelerometer. I had to hold the accelerometer in several different orientations and record the X, Y, and Z data for each orientation. That way, I could write code in the Arduino Micro to recognize a new orientation and assign a number to this orientation to be sent to my Arduino Uno on the robot. This part took a lot of trial and error since the accelerometer was very sensitive, but I soon learned that the trick was to make the ranges of X, Y, and Z coordinates for each position much greater than what you had recorded.
+My second milestone was the implementation of the accelerometer. After successfully wiring the accelerometer the the Arduino Micro, I was back in Arduino code trying to make sense of the huge amounts of coordinate data that the accelerometer was producing. I had to hold the accelerometer in several different orientations and record the X, Y, and Z data for each orientation. That way, I could write code in the Arduino Micro to recognize a new orientation and assign a number to it. Once I got the Bluetooth HC05 modules paired, I could then send that number to the Arduino Uno to call a certain function, either forward, backward, left, or right. This part took a lot of trial and error since the accelerometer was very sensitive, but I soon learned that the trick was to make the ranges of X, Y, and Z coordinates for each position much greater than what you had recorded. This part was also especially meticulous because it involved large amounts of data collection, and it made me realize that I enjoy the coding and assembly of the robot much more than the collection of the data.
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4yhy7YYJi4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -37,7 +37,7 @@ My second milestone setting up the accelerometer. I had to hold the acceleromete
 # First Milestone
   
 
-My first milestone was assembling the frame of the robot by screwing in the DC motors and attaching the wheels. I then wired the motors and battery pack to the Arduino Uno using the H-Bridge. When that was all wired, I assigned the outputs for all of the pins that my motors were using in Arduino code. I wrote a simple motor testing code by assigning all of the pins to a HIGH output to see if the motors would run. Once I was confident that everything was wired properly, I created different functions to go forward, backward, right, and left. I controlled these functions by typing WASD onto my keyboard into the Arduino Serial Monitor.  
+My first milestone was the completion of my robot's driving mechanism. I assembled the frame of the robot with its DC motors, battery pack, and wheels, and then I went on to wire the motors through the H-Bridge to the Arduino Uno. When all of the assembly was done, I plugged my Arduino Uno into my computer and started coding. I only had coding experience in C Sharp prior to this, but Arduino wasn't much different and I quickly learned how the outputs, inputs, serial moniter, and pin system worked. Finally, I created functions to move the motors either forward, backward, left, or right and I controlled these functions by typing WASD onto my keyboard via the Arduino Serial Monitor. This part of the project reaffirmed my love for coding and reminded me of how satisfying it can be to get code running properly. 
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/plT0T65Whm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
