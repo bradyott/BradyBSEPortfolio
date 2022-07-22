@@ -4,7 +4,7 @@
 
 # Gesture Controlled Robot Car
 
-Users can control all movements of this robot simply by turning their hand. The robot utilizes an accelerometer and two Bluetooth HCO5 modules to connect the Arduino Micro on the hand controller to the Arduino Uno on the robot itself. Furthermore, an Ultrasonic sensor and LCD screen connect to the hand controller to create an interactive game based on how far away the robot is from a given object. 
+Users can control all movements of this robot simply by turning their hand. The robot utilizes an accelerometer and two Bluetooth HC-05 modules to connect the Arduino Micro on the hand controller to the Arduino Uno on the robot itself. Furthermore, an Ultrasonic sensor and LCD screen connect to the hand controller to create an interactive game based on how far away the robot is from a given object. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -13,25 +13,25 @@ Users can control all movements of this robot simply by turning their hand. The 
 <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/bradyott/BradyBSEPortfolio/main/IMG_1278.jpg" width="900" height="650">
 
 # Modifications
-The first major modification that I made was to make the robot more portable by wiring a 9V battery to the Arduino Micro. This way, I could use the robot and the Arduino Micro anywhere without having to get power from a computer. The second modification that I made was a game using an Ultrasonic sensor and an LCD screen. The LCD screen gives an objective to the user in centimeters, and the user has to try to manuever the robot that many centimeters away from the wall. The Ultrasonic sensor detects whether the robot is somewhat close to the objecive and then awards the user a point based on their accuracy. 
+I added a couple of modifications to my robot since I was done with the project early and had ideas for some improvements. The first major modification that I made was to make the hand controller more portable by wiring a 9V battery to the Arduino Micro. This way, I could stop reling on the computer as my source of power and instead take the hand controller and robot anywhere. The second modification that I made was an interactive game using an Ultrasonic sensor and an LCD screen. First, I coded the LCD screen to print a randomly generated number between 1 and 15, called the objective. Then, I wired a button to the hand controller to send a signal to the Ultrasonic sensor. The player's goal was to press the button when they thought they were close to the randomly generated objective. If they were within 2.5 centimeters, they would be awarded a point. I enjoyed this part of the project the most since I was able to express my creativity and make something completely original. 
 
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bhcBi9ve2_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100" height="500" src="https://www.youtube.com/embed/bhcBi9ve2_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 # Final Milestone
-My final milestone was connecting the Arduino Micro, which worked with the accelerometer, to the Arduino Uno, which worked with the DC motors. I did this by wiring HC-05 Bluetooth modules to both the Arduino Micro and the Arduino Uno. The wiring of these was particularly tricky because certain pins on the Bluetooth module required resistors to change their current from 5V to 3.3V. Another tricky aspect was the debugging of the Arduino Uno code, since I learned that some of previous aspects of the code slowed down the Bluetooth too much and had to be deleted.
+My final milestone was the connection of both Arduinos via Bluetooth HC-05 modules. The first step was wiring the modules to their respective Arduinos. This was unlike the simple wiring of the accelerometer, since the modules required the help of resistors to split the current from 5V to 3.3V. Once that was complete, I had to set each HC-05 module into AT Command modeand then pair them by using the Serial Monitor to obtain their Bluetooth addresses. This was definitely the hardest part of the project, since I had absolutely no experience. Furthermore, the addition of the Bluetooth required me to modify the code for the Arduino Uno, since some of previous aspects of the code slowed down the Bluetooth too much and had to be deleted.
 
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gayrmzNoFYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="100" height="500" src="https://www.youtube.com/embed/gayrmzNoFYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 </p>
 
 # Second Milestone
 
-My second milestone was the implementation of the accelerometer. After successfully wiring the accelerometer the the Arduino Micro, I was back in Arduino code trying to make sense of the huge amounts of coordinate data that the accelerometer was producing. I had to hold the accelerometer in several different orientations and record the X, Y, and Z data for each orientation. That way, I could write code in the Arduino Micro to recognize a new orientation and assign a number to it. Once I got the Bluetooth HC05 modules paired, I could then send that number to the Arduino Uno to call a certain function, either forward, backward, left, or right. This part took a lot of trial and error since the accelerometer was very sensitive, but I soon learned that the trick was to make the ranges of X, Y, and Z coordinates for each position much greater than what you had recorded. This part was also especially meticulous because it involved large amounts of data collection, and it made me realize that I enjoy the coding and assembly of the robot much more than the collection of the data.
+My second milestone was the implementation of the accelerometer. After successfully wiring the accelerometer the the Arduino Micro, I was back in Arduino code trying to make sense of the huge amounts of coordinate data that the accelerometer was producing. I had to hold the accelerometer in several different orientations and record the X, Y, and Z data for each orientation. That way, I could write code in the Arduino Micro to recognize a new orientation and assign a number to it. Once I got the Bluetooth HC-05 modules paired, I could then send that number to the Arduino Uno to call a certain function, either forward, backward, left, or right. This part took a lot of trial and error since the accelerometer was very sensitive, but I soon learned that the trick was to make the ranges of X, Y, and Z coordinates for each position much greater than what you had recorded. This part was also especially meticulous because it involved large amounts of data collection, and it made me realize that I enjoy the coding and assembly of the robot much more than the collection of the data.
 
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4yhy7YYJi4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100" height="500" src="https://www.youtube.com/embed/4yhy7YYJi4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 # First Milestone
@@ -40,7 +40,7 @@ My second milestone was the implementation of the accelerometer. After successfu
 My first milestone was the completion of my robot's driving mechanism. I assembled the frame of the robot with its DC motors, battery pack, and wheels, and then I went on to wire the motors through the H-Bridge to the Arduino Uno. When all of the assembly was done, I plugged my Arduino Uno into my computer and started coding. I only had coding experience in C Sharp prior to this, but Arduino wasn't much different and I quickly learned how the outputs, inputs, serial moniter, and pin system worked. Finally, I created functions to move the motors either forward, backward, left, or right and I controlled these functions by typing WASD onto my keyboard via the Arduino Serial Monitor. This part of the project reaffirmed my love for coding and reminded me of how satisfying it can be to get code running properly. 
 
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/plT0T65Whm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100" height="500" src="https://www.youtube.com/embed/plT0T65Whm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 # Schematics
 <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://cdn.discordapp.com/attachments/991733151166627870/998973852631711905/gesture_bb.png" width="900" height="650">
