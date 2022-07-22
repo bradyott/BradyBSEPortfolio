@@ -17,20 +17,22 @@ The first major modification that I made was to make the robot more portable by 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bhcBi9ve2_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 # Final Milestone
 My final milestone was connecting the Arduino Micro, which worked with the accelerometer, to the Arduino Uno, which worked with the DC motors. I did this by wiring HC-05 Bluetooth modules to both the Arduino Micro and the Arduino Uno. The wiring of these was particularly tricky because certain pins on the Bluetooth module required resistors to change their current from 5V to 3.3V. Another tricky aspect was the debugging of the Arduino Uno code, since I learned that some of previous aspects of the code slowed down the Bluetooth too much and had to be deleted.
-
+<p align='center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gayrmzNoFYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-
+          </p>
 # Second Milestone
 My second milestone setting up the accelerometer. I had to hold the accelerometer in several different orientations and record the X, Y, and Z data for each orientation. That way, I could write code in the Arduino Micro to recognize a new orientation and assign a number to this orientation to be sent to my Arduino Uno on the robot. This part took a lot of trial and error since the accelerometer was very sensitive, but I soon learned that the trick was to make the ranges of X, Y, and Z coordinates for each position much greater than what you had recorded.
-
+<p align='center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4yhy7YYJi4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 # First Milestone
   
 
 My first milestone was assembling the frame of the robot by screwing in the DC motors and attaching the wheels. I then wired the motors and battery pack to the Arduino Uno using the H-Bridge. When that was all wired, I assigned the outputs for all of the pins that my motors were using in Arduino code. I wrote a simple motor testing code by assigning all of the pins to a HIGH output to see if the motors would run. Once I was confident that everything was wired properly, I created different functions to go forward, backward, right, and left. I controlled these functions by typing WASD onto my keyboard into the Arduino Serial Monitor.  
 
+<p align='center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/plT0T65Whm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</p>
 # Schematics
 <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://cdn.discordapp.com/attachments/991733151166627870/998973852631711905/gesture_bb.png" width="900" height="650">
 # Final Code
